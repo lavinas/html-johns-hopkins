@@ -7,15 +7,11 @@ h1 {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .c1 {
   border: 2px solid black;
   background-color:grey;
   width: 90%;
-  height: 178px;
+  height: 200px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
@@ -24,12 +20,18 @@ h1 {
   color: black;
   text-align: justify;
   padding: 10px;
+  position: relative;
 }
 
 .p1 {
-  float: left;
-  text-align: right;
-  margin-left: 82%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  margin-right: 5px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
   border: 1px solid black;
   font-weight: bold;
   background-color: rosybrown;
@@ -37,8 +39,14 @@ h1 {
 }
 
 .p2 {
-  text-align: right;
-  margin-left: 82%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  margin-right: 5px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
   border: 1px solid black;
   font-weight: bold;
   background-color: red;
@@ -46,8 +54,14 @@ h1 {
 }
 
 .p3 {
-  text-align: right;
-  margin-left: 82%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  margin-right: 5px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
   border: 1px solid black;
   font-weight: bold;
   background-color: orange;
@@ -55,10 +69,9 @@ h1 {
 }
 
 .p4 {
-  float: bottom;
+  position: absolute;
+  top: 50px;
 }
-
-
 
 /* Simple Responsive Framework. */
 .row {
